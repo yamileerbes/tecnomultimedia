@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sunshiney&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+header{
+background-color: rgb(255, 212, 70);
+height: 170px;
+text-align: center;
+margin: 50px auto 50px;
+font-family: "Sunshiney", cursive;
+font-size:40px;
+padding-top: 10px;
+color: rgb(125, 55, 190);
+}
+
+body{
+    background-color: rgb(231, 171, 40);
+   font-family: "Playwrite GB S", serif;
+}
+div{
+    width: 1500px;
+    max-width: 100%;
+    margin: 20px auto 0 auto;
+}
+article {
+    background-color: rgb(255, 227, 175);
+    padding: 100px;
+    font-size: 20px;
+    border-radius: 10%;
+    margin-bottom: 20px;
+}
+
+footer {
+    font-size: 20px;
+background-color: rgb(255, 212, 70);
+text-align:center;
+padding:50px;
+
+}
+
+
+.centrado {
+    display: inline-block;
+    margin: 10px;
+    max-inline-size: 30%;
+    width: auto;
+    height: auto;
+    vertical-align: text-top;
+}
+
+nav li {
+display: inline-block;
+height: 50px;
+}
+
+nav a {
+text-decoration: none;
+color: rgb(125, 55, 190);
+background-color: rgb(248, 194, 94);
+padding: 10px;
+border-radius: 20%;
+font-size: 20px;
+}
+
+nav a:hover {
+color: rgb(248, 194, 94);
+background-color:rgb(125, 55, 190) ;
+}
+
+.titulos{
+    max-width: 50%;
+    min-width: 50%;
+ font-family: "Sunshiney", cursive;
+ font-size: 40px;
+color: rgb(125, 55, 190);
+display: inline-block;
+text-align: center;
+text-wrap:wrap;
+height: 80px;
+background-color: rgb(248, 194, 94);
+padding-top: 20px;
+border-radius: 20%;
+}
+
+
+.flecha {
+max-width: 10%;
+min-width: 5%;
+display: inline-block;
+vertical-align:middle;
+background-color: rgb(248, 194, 94);
+border-radius: 20%;
+}
+
+.flecha:hover {
+background-color: rgb(255, 212, 70);
+
+}
+
+.contenedor{
+display: flex;
+gap: 15px;
+}
+
+@media (max-width:700px) {
+
+    header{
+        height: 130px;
+        margin: 0px auto 50px; 
+        font-size:large;
+        }
+        nav li {
+            display: block;
+            margin-bottom: 10px;
+            }
+        
+        .titulos{
+            font-size: 25px;
+            height: 65px;
+            padding-bottom: 20px;
+            }
+            article {
+                padding: 30px;
+            }
+    .flecha {
+        max-width: 15%;
+        margin-bottom: 15px;
+        }
+        .centrado {
+            margin: 0px;
+            padding: 0px;
+            max-inline-size: 30%;
+        }
+        .contenedor{
+            display: block;
+        }
+        
+}
